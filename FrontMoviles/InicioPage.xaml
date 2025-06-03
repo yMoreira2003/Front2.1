@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FrontMoviles.InicioPage"
+             Title="SERVIFLEX"
+             BackgroundColor="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Contenido principal -->
+        <ScrollView Grid.Row="0">
+            <StackLayout Spacing="0">
+
+                <!-- Header con saludo y búsqueda -->
+                <Grid BackgroundColor="#4A7C59" Padding="20,50,20,30">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Header superior -->
+                    <Grid Grid.Row="0" Margin="0,0,0,20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Grid.Column="0" Orientation="Horizontal">
+                            <Frame BackgroundColor="White" 
+                                   CornerRadius="8" 
+                                   WidthRequest="40" 
+                                   HeightRequest="40"
+                                   HasShadow="False"
+                                   Padding="8">
+                                <Label Text="🔧" 
+                                       FontSize="20"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center" />
+                            </Frame>
+                            <StackLayout Margin="10,0,0,0" VerticalOptions="Center">
+                                <Label Text="SERVIFLEX" 
+                                       FontSize="18" 
+                                       FontAttributes="Bold"
+                                       TextColor="White" />
+                                <Label x:Name="SaludoLabel"
+                                       Text="¡Bienvenido de vuelta!" 
+                                       FontSize="12" 
+                                       TextColor="White">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnNombreUsuarioClicked" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                            </StackLayout>
+                        </StackLayout>
+
+                        <!-- Botón notificaciones -->
+                        <Button Grid.Column="1" 
+                                Text="🔔"
+                                FontSize="20"
+                                BackgroundColor="Transparent"
+                                TextColor="White"
+                                WidthRequest="40"
+                                HeightRequest="40"
+                                CornerRadius="20"
+                                Margin="0,0,10,0"
+                                Clicked="OnNotificacionesClicked" />
+
+                        <!-- Botón logout -->
+                        <Button Grid.Column="2" 
+                                Text="🚪"
+                                FontSize="18"
+                                BackgroundColor="Transparent"
+                                TextColor="White"
+                                WidthRequest="40"
+                                HeightRequest="40"
+                                CornerRadius="20"
+                                Clicked="OnLogoutClicked" />
+                    </Grid>
+
+                    <!-- Título principal -->
+                    <Label Grid.Row="1" 
+                           Text="¿Qué servicio necesitas hoy?"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="White"
+                           Margin="0,0,0,20" />
+
+                    <!-- Barra de búsqueda -->
+                    <Frame Grid.Row="2" 
+                           BackgroundColor="White"
+                           CornerRadius="25"
+                           HasShadow="False"
+                           Padding="15,12">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" 
+                                   Text="🔍"
+                                   FontSize="16"
+                                   TextColor="Gray"
+                                   VerticalOptions="Center" />
+
+                            <Entry Grid.Column="1"
+                                   x:Name="BusquedaEntry"
+                                   Placeholder="Buscar servicios..."
+                                   PlaceholderColor="Gray"
+                                   TextColor="Black"
+                                   BackgroundColor="Transparent"
+                                   Margin="10,0,0,0" />
+
+                            <Button Grid.Column="2"
+                                    Text="Buscar"
+                                    BackgroundColor="#518777"
+                                    TextColor="White"
+                                    FontSize="12"
+                                    CornerRadius="15"
+                                    Padding="15,5"
+                                    Clicked="OnBuscarClicked" />
+                        </Grid>
+                    </Frame>
+                </Grid>
+
+                <!-- Contenido principal -->
+                <StackLayout BackgroundColor="White" Spacing="25" Padding="20,25">
+
+                    <!-- Categorías populares -->
+                    <StackLayout Spacing="15">
+                        <Label Text="Categorías populares" 
+                               FontSize="18" 
+                               FontAttributes="Bold"
+                               TextColor="Black" />
+
+                        <Grid ColumnSpacing="15" RowSpacing="15">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Educación -->
+                            <StackLayout Grid.Column="0" HorizontalOptions="Center">
+                                <Frame BackgroundColor="#A8D5BA"
+                                       CornerRadius="25"
+                                       WidthRequest="50"
+                                       HeightRequest="50"
+                                       HasShadow="False"
+                                       Padding="0">
+                                    <Button Text="📚"
+                                            FontSize="20"
+                                            BackgroundColor="Transparent"
+                                            TextColor="White"
+                                            Clicked="OnCategoriaClicked"
+                                            CommandParameter="Educacion" />
+                                </Frame>
+                                <Label Text="Educación" 
+                                       FontSize="12" 
+                                       TextColor="Black"
+                                       HorizontalOptions="Center"
+                                       Margin="0,5,0,0" />
+                            </StackLayout>
+
+                            <!-- Hogar -->
+                            <StackLayout Grid.Column="1" HorizontalOptions="Center">
+                                <Frame BackgroundColor="#A8D5BA"
+                                       CornerRadius="25"
+                                       WidthRequest="50"
+                                       HeightRequest="50"
+                                       HasShadow="False"
+                                       Padding="0">
+                                    <Button Text="🏠"
+                                            FontSize="20"
+                                            BackgroundColor="Transparent"
+                                            TextColor="White"
+                                            Clicked="OnCategoriaClicked"
+                                            CommandParameter="Hogar" />
+                                </Frame>
+                                <Label Text="Hogar" 
+                                       FontSize="12" 
+                                       TextColor="Black"
+                                       HorizontalOptions="Center"
+                                       Margin="0,5,0,0" />
+                            </StackLayout>
+
+                            <!-- Tecnología -->
+                            <StackLayout Grid.Column="2" HorizontalOptions="Center">
+                                <Frame BackgroundColor="#A8D5BA"
+                                       CornerRadius="25"
+                                       WidthRequest="50"
+                                       HeightRequest="50"
+                                       HasShadow="False"
+                                       Padding="0">
+                                    <Button Text="💻"
+                                            FontSize="20"
+                                            BackgroundColor="Transparent"
+                                            TextColor="White"
+                                            Clicked="OnCategoriaClicked"
+                                            CommandParameter="Tecnologia" />
+                                </Frame>
+                                <Label Text="Tecnología" 
+                                       FontSize="12" 
+                                       TextColor="Black"
+                                       HorizontalOptions="Center"
+                                       Margin="0,5,0,0" />
+                            </StackLayout>
+
+                            <!-- Diseño -->
+                            <StackLayout Grid.Column="3" HorizontalOptions="Center">
+                                <Frame BackgroundColor="#A8D5BA"
+                                       CornerRadius="25"
+                                       WidthRequest="50"
+                                       HeightRequest="50"
+                                       HasShadow="False"
+                                       Padding="0">
+                                    <Button Text="🎨"
+                                            FontSize="20"
+                                            BackgroundColor="Transparent"
+                                            TextColor="White"
+                                            Clicked="OnCategoriaClicked"
+                                            CommandParameter="Diseno" />
+                                </Frame>
+                                <Label Text="Diseño" 
+                                       FontSize="12" 
+                                       TextColor="Black"
+                                       HorizontalOptions="Center"
+                                       Margin="0,5,0,0" />
+                            </StackLayout>
+                        </Grid>
+                    </StackLayout>
+
+                    <!-- Servicios recientes -->
+                    <StackLayout Spacing="15">
+                        <Label Text="Servicios recientes" 
+                               FontSize="18" 
+                               FontAttributes="Bold"
+                               TextColor="Black" />
+
+                        <!-- Lista de servicios -->
+                        <StackLayout x:Name="ServiciosContainer" Spacing="15">
+                            <!-- Los servicios se cargarán dinámicamente -->
+                        </StackLayout>
+
+                        <Button Text="Ver todos los servicios"
+                                BackgroundColor="Transparent"
+                                TextColor="#518777"
+                                BorderColor="#518777"
+                                BorderWidth="1"
+                                CornerRadius="20"
+                                Clicked="OnVerTodosClicked" />
+                    </StackLayout>
+
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Footer de navegación -->
+        <Grid Grid.Row="1" BackgroundColor="White" Padding="0,10,0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Inicio -->
+            <StackLayout Grid.Column="0" HorizontalOptions="Center">
+                <Frame x:Name="InicioFrame"
+                       BackgroundColor="#4A7C59"
+                       CornerRadius="20"
+                       WidthRequest="40"
+                       HeightRequest="40"
+                       HasShadow="False"
+                       Padding="0">
+                    <Button Text="🏠"
+                            FontSize="18"
+                            BackgroundColor="Transparent"
+                            TextColor="White"
+                            Clicked="OnInicioClicked" />
+                </Frame>
+                <Label Text="Inicio" 
+                       FontSize="12" 
+                       TextColor="#4A7C59"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center" />
+            </StackLayout>
+
+            <!-- Servicios -->
+            <StackLayout Grid.Column="1" HorizontalOptions="Center">
+                <Frame x:Name="ServiciosFrame"
+                       BackgroundColor="#E0E0E0"
+                       CornerRadius="20"
+                       WidthRequest="40"
+                       HeightRequest="40"
+                       HasShadow="False"
+                       Padding="0">
+                    <Button Text="📋"
+                            FontSize="18"
+                            BackgroundColor="Transparent"
+                            TextColor="Gray"
+                            Clicked="OnServiciosClicked" />
+                </Frame>
+                <Label Text="Servicios" 
+                       FontSize="12" 
+                       TextColor="Gray"
+                       HorizontalOptions="Center" />
+            </StackLayout>
+
+            <!-- Publicar -->
+            <StackLayout Grid.Column="2" HorizontalOptions="Center">
+                <Frame x:Name="PublicarFrame"
+                       BackgroundColor="#E0E0E0"
+                       CornerRadius="20"
+                       WidthRequest="40"
+                       HeightRequest="40"
+                       HasShadow="False"
+                       Padding="0">
+                    <Button Text="➕"
+                            FontSize="18"
+                            BackgroundColor="Transparent"
+                            TextColor="Gray"
+                            Clicked="OnPublicarClicked" />
+                </Frame>
+                <Label Text="Publicar" 
+                       FontSize="12" 
+                       TextColor="Gray"
+                       HorizontalOptions="Center" />
+            </StackLayout>
+
+            <!-- Perfil -->
+            <StackLayout Grid.Column="3" HorizontalOptions="Center">
+                <Frame x:Name="PerfilFrame"
+                       BackgroundColor="#E0E0E0"
+                       CornerRadius="20"
+                       WidthRequest="40"
+                       HeightRequest="40"
+                       HasShadow="False"
+                       Padding="0">
+                    <Button Text="👤"
+                            FontSize="18"
+                            BackgroundColor="Transparent"
+                            TextColor="Gray"
+                            Clicked="OnPerfilClicked" />
+                </Frame>
+                <Label Text="Perfil" 
+                       FontSize="12" 
+                       TextColor="Gray"
+                       HorizontalOptions="Center" />
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

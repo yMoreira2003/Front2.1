@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FrontMoviles.RegisterPage"
+             Title="Registro"
+             BackgroundColor="{StaticResource Background}">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- Título -->
+            <VerticalStackLayout Spacing="5" Margin="0,20,0,10">
+                <Label Text="Crear cuenta" 
+                       Style="{StaticResource TitleLabel}"
+                       FontSize="28" />
+                <Label Text="Únete a ServiFlex y comienza a ofrecer o solicitar servicios" 
+                       Style="{StaticResource SubtitleLabel}"
+                       FontSize="14"
+                       HorizontalTextAlignment="Center"
+                       Margin="20,0" />
+            </VerticalStackLayout>
+
+            <!-- Formulario -->
+            <VerticalStackLayout Spacing="15">
+
+                <!-- Nombre -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Nombre *" 
+                           FontAttributes="Bold" />
+                    <Entry x:Name="NombreEntry"
+                           Placeholder="Tu nombre"
+                           Style="{StaticResource EntryStyle}" />
+                </VerticalStackLayout>
+
+                <!-- Apellidos -->
+                <Grid ColumnDefinitions="*,*" ColumnSpacing="10">
+                    <VerticalStackLayout Grid.Column="0" Spacing="5">
+                        <Label Text="Primer apellido *" 
+                               FontAttributes="Bold" />
+                        <Entry x:Name="Apellido1Entry"
+                               Placeholder="Primer apellido"
+                               Style="{StaticResource EntryStyle}" />
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Grid.Column="1" Spacing="5">
+                        <Label Text="Segundo apellido" />
+                        <Entry x:Name="Apellido2Entry"
+                               Placeholder="Segundo apellido"
+                               Style="{StaticResource EntryStyle}" />
+                    </VerticalStackLayout>
+                </Grid>
+
+                <!-- Fecha de nacimiento -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Fecha de nacimiento *" 
+                           FontAttributes="Bold" />
+                    <DatePicker x:Name="FechaNacimientoPicker"
+                                MaximumDate="{Binding MaxDate}"
+                                MinimumDate="{Binding MinDate}"
+                                BackgroundColor="#F8F8F8"
+                                HeightRequest="50" />
+                </VerticalStackLayout>
+
+                <!-- Teléfono -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Teléfono *" 
+                           FontAttributes="Bold" />
+                    <Entry x:Name="TelefonoEntry"
+                           Placeholder="+506 8888-8888"
+                           Keyboard="Telephone"
+                           Style="{StaticResource EntryStyle}" />
+                </VerticalStackLayout>
+                <!-- Reemplazar toda la sección de ubicación en RegisterPage.xaml -->
+
+                <!-- Ubicación -->
+                <Label Text="Ubicación *" 
+       FontSize="16"
+       FontAttributes="Bold"
+       TextColor="{StaticResource TextPrimary}"
+       Margin="0,10,0,5" />
+
+                <!-- Provincia -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Provincia *" 
+           FontAttributes="Bold" />
+                    <Grid>
+                        <Picker x:Name="ProvinciaPicker"
+                Title="Seleccionar provincia"
+                TitleColor="LightGray"
+                TextColor="Black"
+                FontSize="16"
+                BackgroundColor="#F8F8F8"
+                HeightRequest="50"
+                SelectedIndexChanged="OnProvinciaSelectionChanged" />
+                        <Label Text="▼" 
+               TextColor="Gray"
+               FontSize="12"
+               HorizontalOptions="End"
+               VerticalOptions="Center"
+               Margin="0,0,15,0" />
+                    </Grid>
+                </VerticalStackLayout>
+
+                <!-- Cantón -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Cantón *" 
+           FontAttributes="Bold" />
+                    <Grid>
+                        <Picker x:Name="CantonPicker"
+                Title="Seleccionar cantón"
+                TitleColor="LightGray"
+                TextColor="Black"
+                FontSize="16"
+                BackgroundColor="#F8F8F8"
+                HeightRequest="50"
+                IsEnabled="False" />
+                        <Label Text="▼" 
+               TextColor="Gray"
+               FontSize="12"
+               HorizontalOptions="End"
+               VerticalOptions="Center"
+               Margin="0,0,15,0" />
+                    </Grid>
+                </VerticalStackLayout>
+
+                <!-- Dirección exacta -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Dirección exacta" />
+                    <Entry x:Name="DireccionEntry"
+           Placeholder="Ej: 200m norte de la iglesia"
+           Style="{StaticResource EntryStyle}" />
+                </VerticalStackLayout>
+
+                <!-- Email -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Correo electrónico *" 
+                           FontAttributes="Bold" />
+                    <Entry x:Name="CorreoEntry"
+                           Placeholder="correo@ejemplo.com"
+                           Keyboard="Email"
+                           Style="{StaticResource EntryStyle}" />
+                    <Label x:Name="CorreoErrorLabel"
+                           Text="Por favor ingresa un correo válido"
+                           TextColor="Red"
+                           FontSize="12"
+                           IsVisible="False" />
+                </VerticalStackLayout>
+
+                <!-- Contraseña -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Contraseña *" 
+                           FontAttributes="Bold" />
+                    <Grid>
+                        <Entry x:Name="ContrasenaEntry"
+                               Placeholder="Mínimo 8 caracteres"
+                               IsPassword="True"
+                               Style="{StaticResource EntryStyle}"
+                               TextChanged="OnPasswordTextChanged" />
+                        <Label Text="Mostrar" 
+                               TextColor="{StaticResource servi}"
+                               FontSize="14"
+                               HorizontalOptions="End"
+                               VerticalOptions="Center"
+                               Margin="0,0,15,0">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnShowPasswordTapped" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </Grid>
+
+                    <!-- Indicador de fortaleza -->
+                    <Grid ColumnDefinitions="*,*,*,*" ColumnSpacing="5" HeightRequest="4">
+                        <BoxView x:Name="StrengthBar1" Grid.Column="0" Color="#E0E0E0" CornerRadius="2" />
+                        <BoxView x:Name="StrengthBar2" Grid.Column="1" Color="#E0E0E0" CornerRadius="2" />
+                        <BoxView x:Name="StrengthBar3" Grid.Column="2" Color="#E0E0E0" CornerRadius="2" />
+                        <BoxView x:Name="StrengthBar4" Grid.Column="3" Color="#E0E0E0" CornerRadius="2" />
+                    </Grid>
+
+                    <Label x:Name="PasswordStrengthLabel"
+                           Text="La contraseña debe tener al menos 8 caracteres"
+                           TextColor="{StaticResource TextSecondary}"
+                           FontSize="12" />
+                </VerticalStackLayout>
+
+                <!-- Confirmar contraseña -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Confirmar contraseña *" 
+                           FontAttributes="Bold" />
+                    <Entry x:Name="ConfirmarContrasenaEntry"
+                           Placeholder="Repite tu contraseña"
+                           IsPassword="True"
+                           Style="{StaticResource EntryStyle}" />
+                    <Label x:Name="ConfirmarErrorLabel"
+                           Text="Las contraseñas no coinciden"
+                           TextColor="Red"
+                           FontSize="12"
+                           IsVisible="False" />
+                </VerticalStackLayout>
+
+                <!-- Términos y condiciones -->
+                <HorizontalStackLayout Spacing="5">
+                    <CheckBox x:Name="TerminosCheck" />
+                    <Label VerticalOptions="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Acepto los " />
+                                <Span Text="términos y condiciones" 
+                                      TextColor="{StaticResource servi}"
+                                      TextDecorations="Underline">
+                                    <Span.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnTermsClicked" />
+                                    </Span.GestureRecognizers>
+                                </Span>
+                                <Span Text=" y la " />
+                                <Span Text="política de privacidad" 
+                                      TextColor="{StaticResource servi}"
+                                      TextDecorations="Underline">
+                                    <Span.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="OnPrivacyClicked" />
+                                    </Span.GestureRecognizers>
+                                </Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </HorizontalStackLayout>
+
+            </VerticalStackLayout>
+
+            <!-- Botón registrar -->
+            <Button Text="Crear cuenta" 
+                    Style="{StaticResource PrimaryButton}"
+                    Clicked="OnRegisterClicked"
+                    Margin="0,20,0,0" 
+                    BackgroundColor="#518777"/>
+
+            <!-- Ya tienes cuenta -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="5" Margin="0,10,0,30">
+                <Label Text="¿Ya tienes cuenta?" 
+                       TextColor="{StaticResource TextSecondary}"
+                       FontSize="14" />
+                <Label Text="Iniciar sesión" 
+                       TextColor="{StaticResource servi}"
+                       FontSize="14"
+                       FontAttributes="Bold">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnLoginTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

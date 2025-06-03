@@ -1,0 +1,457 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\publicarserviciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\publicarserviciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\servicios\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\servicios\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\servicios\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\servicios\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\publicarserviciopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\publicarserviciopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\iniciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\iniciopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\iniciopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\iniciopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\servicios\\jwthttphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\servicios\\jwthttphandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\frontmoviles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\frontmoviles.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\modelos\\usuariomodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\modelos\\usuariomodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\perfilpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\perfilpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\perfilpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\perfilpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\verificationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\verificationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\verificationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\verificationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\resources\\appicon\\appicon.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\resources\\appicon\\appiconfg.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\resources\\appicon\\appiconfg.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\resources\\splash\\splash.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\resources\\splash\\splash.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|d:\\universidad\\l-2025\\moviles\\proyecto2\\frontmoviles\\frontmoviles\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F9A419B-B7D3-4144-B89E-A0072DCDB4D3}|FrontMoviles\\FrontMoviles.csproj|solutionrelative:frontmoviles\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "FrontMoviles\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\LoginPage.xaml.cs",
+              "RelativeToolTip": "FrontMoviles\\LoginPage.xaml.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAcwDkBAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T23:16:25.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "FrontMoviles\\RegisterPage.xaml.cs",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "FrontMoviles\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAANwBAAAAAAAAAAAuwOsBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T01:06:06.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Servicios\\SessionManager.cs",
+              "RelativeDocumentMoniker": "FrontMoviles\\Servicios\\SessionManager.cs",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Servicios\\SessionManager.cs",
+              "RelativeToolTip": "FrontMoviles\\Servicios\\SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T00:26:50.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "FrontMoviles\\LoginPage.xaml",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\LoginPage.xaml",
+              "RelativeToolTip": "FrontMoviles\\LoginPage.xaml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-22T23:16:20.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PublicarServicioPage.xaml.cs",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\PublicarServicioPage.xaml.cs",
+              "RelativeDocumentMoniker": "FrontMoviles\\PublicarServicioPage.xaml.cs",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\PublicarServicioPage.xaml.cs",
+              "RelativeToolTip": "FrontMoviles\\PublicarServicioPage.xaml.cs",
+              "ViewState": "AgIAAO4BAAAAAAAAAAAwwAACAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T06:38:36.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InicioPage.xaml.cs",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\InicioPage.xaml.cs",
+              "RelativeDocumentMoniker": "FrontMoviles\\InicioPage.xaml.cs",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\InicioPage.xaml.cs",
+              "RelativeToolTip": "FrontMoviles\\InicioPage.xaml.cs",
+              "ViewState": "AgIAAOkBAAAAAAAAAAAIwPIBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:15:11.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Servicios\\ApiService.cs",
+              "RelativeDocumentMoniker": "FrontMoviles\\Servicios\\ApiService.cs",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Servicios\\ApiService.cs",
+              "RelativeToolTip": "FrontMoviles\\Servicios\\ApiService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:08:27.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PublicarServicioPage.xaml",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\PublicarServicioPage.xaml",
+              "RelativeDocumentMoniker": "FrontMoviles\\PublicarServicioPage.xaml",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\PublicarServicioPage.xaml",
+              "RelativeToolTip": "FrontMoviles\\PublicarServicioPage.xaml",
+              "ViewState": "AgIAANAAAAAAAAAAAAAAwOMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T06:37:38.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JwtHttpHandler.cs",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Servicios\\JwtHttpHandler.cs",
+              "RelativeDocumentMoniker": "FrontMoviles\\Servicios\\JwtHttpHandler.cs",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Servicios\\JwtHttpHandler.cs",
+              "RelativeToolTip": "FrontMoviles\\Servicios\\JwtHttpHandler.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAAAACMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:20:56.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InicioPage.xaml",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\InicioPage.xaml",
+              "RelativeDocumentMoniker": "FrontMoviles\\InicioPage.xaml",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\InicioPage.xaml",
+              "RelativeToolTip": "FrontMoviles\\InicioPage.xaml",
+              "ViewState": "AgIAAFwBAAAAAAAAAAAIwGgBAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T03:13:57.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrontMoviles",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\FrontMoviles.csproj",
+              "RelativeDocumentMoniker": "FrontMoviles\\FrontMoviles.csproj",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\FrontMoviles.csproj",
+              "RelativeToolTip": "FrontMoviles\\FrontMoviles.csproj",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwGIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T15:13:53.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsuarioModels.cs",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Modelos\\UsuarioModels.cs",
+              "RelativeDocumentMoniker": "FrontMoviles\\Modelos\\UsuarioModels.cs",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Modelos\\UsuarioModels.cs",
+              "RelativeToolTip": "FrontMoviles\\Modelos\\UsuarioModels.cs",
+              "ViewState": "AgIAAHcBAAAAAAAAAAAYwN0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T03:07:21.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PerfilPage.xaml",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\PerfilPage.xaml",
+              "RelativeDocumentMoniker": "FrontMoviles\\PerfilPage.xaml",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\PerfilPage.xaml",
+              "RelativeToolTip": "FrontMoviles\\PerfilPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMcBAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-31T03:50:34.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PerfilPage.xaml.cs",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\PerfilPage.xaml.cs",
+              "RelativeDocumentMoniker": "FrontMoviles\\PerfilPage.xaml.cs",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\PerfilPage.xaml.cs",
+              "RelativeToolTip": "FrontMoviles\\PerfilPage.xaml.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAwwFYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:51:32.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "FrontMoviles\\RegisterPage.xaml",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\RegisterPage.xaml",
+              "RelativeToolTip": "FrontMoviles\\RegisterPage.xaml",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAlwIMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-23T01:33:56.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\MainPage.xaml",
+              "RelativeDocumentMoniker": "FrontMoviles\\MainPage.xaml",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\MainPage.xaml",
+              "RelativeToolTip": "FrontMoviles\\MainPage.xaml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAqwCwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-22T23:23:09.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VerificationPage.xaml.cs",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\VerificationPage.xaml.cs",
+              "RelativeDocumentMoniker": "FrontMoviles\\VerificationPage.xaml.cs",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\VerificationPage.xaml.cs",
+              "RelativeToolTip": "FrontMoviles\\VerificationPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T05:12:31.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "FrontMoviles\\MainPage.xaml.cs",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\MainPage.xaml.cs",
+              "RelativeToolTip": "FrontMoviles\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T23:23:38.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appiconfg.svg",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Resources\\AppIcon\\appiconfg.svg",
+              "RelativeDocumentMoniker": "FrontMoviles\\Resources\\AppIcon\\appiconfg.svg",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Resources\\AppIcon\\appiconfg.svg",
+              "RelativeToolTip": "FrontMoviles\\Resources\\AppIcon\\appiconfg.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP8SURBVDhPrZRdbJNVGMd/p33b9Qtqt9HZbe2woKxsbGDYpk5DQAkTFcQPjJgY44XGEI3GmBBMNNmVNxoWojei8VITgyzGCwgRyRjJZM5JlvERt0C3dVu3rt3bD7r3bc/xYt0o4CX/5Mn5/uc85/zOgfsppZS4u6\u002Bnp\u002BdYc3PzB6VxlFIrcwGQUpLP58lms71Hjhw5PDExEbvT4S719PSMSillsVj83ygUCnJ4eFgODg7K48eP/xyJRDaVr7eWNwC6uroOd3R0VEsFBSOFzF1GZL7DmP0Rc/o3AP6dNNne1oHT6Qzb7fb6qampy4lEInGPob39NdHY2n74aq6i\u002BvpUP2sL3\u002BCc/ZZC7AyITUgVpBC/yMQcNDzSjs/n01wu18bKysrglStXLqTT6fSyoRC4H93nCz33zudrAqFn2iI2\u002B66aY3hnTjM8vpVf9A8ZqzjElta9yLlRMqabC0M3GBoaQtd1q8/ni5w/f/6nVCoV0wAczXu8Dfvf/\u002BTp7fXvvrxlzLVdfkriWo7\u002B7FGuh19kwnBycWyGrHmDV/xNNLZuoB4/hmHg8XgYGRlZzdIC4O96r7Mjsu6Ng00Da9tyH4vF4TxTopvcugPYsuA2C4TW13Jprkhf8iHEmhDV1VUEAgG8Xi9Wq3WVAgtAQ8Bz4IXG0aoW8ysxP2jiavmBLY8d4OC2AK\u002B3VJOZnsNnr0C4nQwmbMznLaX9KChDC0AD2Lwu9dTj3u\u002BdmXEHX5ufMfmHDbPwD1IpFJJ8UaNKs2Cz2xifWyKZNqhd60ApQNxmFECrDWj2t1pO19uiY\u002BKc5QvlbtstwsrC8mxKpgrzloFhmCwVChSUKg0r1F0PQJu8GtqfHP\u002B1YiDzthoN7in\u002BefGadWuNSygpUUohlQIUQirqkLQGPfg99pLZna8IQFN67NXZm3VL54o7MbNKczttls5wtdhW58br0NDzJgM3kkSTOVCKoM\u002BFx6GtJLB8jmXS8pP5zmS24vf\u002BGW1zSEs11ITrxJnpHGeuz6IME82uUfRUkSy6WIgv8KxFYLPc/gJWUl6RpbAonHuPLh2Kzcx/eW10PHFzOq0M9xoIrUdsfJilugbiShCPJwg7CjzfXIPdunLL98p69E38Ox5Mhi/1X\u002B1rCNjMTMps1DPSPRlfJDGf4lZiAVt6kaYHND7auYFKtx2EWEVGCEE0GuXUqVMndF2PWdfXMhCbYVfEPrujLt43Eqhvde1\u002B4slGv63IJq9Ge62bfU1\u002BXtpai8OmLW\u002BjhAuAsFiIRifo7e09oev6vV9Zd3d3n5RSmqZZCkOaxnIYq7G0WpqmKc\u002BePSuDwWAbK2CXSyn118mTJztL9WV0SgiV95Wzp\u002Bv638DCnU73Sf8B3E0j/55GTsEAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-05-28T00:38:29.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VerificationPage.xaml",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\VerificationPage.xaml",
+              "RelativeDocumentMoniker": "FrontMoviles\\VerificationPage.xaml",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\VerificationPage.xaml",
+              "RelativeToolTip": "FrontMoviles\\VerificationPage.xaml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAqwH4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T05:10:11.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appicon.svg",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Resources\\AppIcon\\appicon.svg",
+              "RelativeDocumentMoniker": "FrontMoviles\\Resources\\AppIcon\\appicon.svg",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Resources\\AppIcon\\appicon.svg",
+              "RelativeToolTip": "FrontMoviles\\Resources\\AppIcon\\appicon.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP8SURBVDhPrZRdbJNVGMd/p33b9Qtqt9HZbe2woKxsbGDYpk5DQAkTFcQPjJgY44XGEI3GmBBMNNmVNxoWojei8VITgyzGCwgRyRjJZM5JlvERt0C3dVu3rt3bD7r3bc/xYt0o4CX/5Mn5/uc85/zOgfsppZS4u6\u002Bnp\u002BdYc3PzB6VxlFIrcwGQUpLP58lms71Hjhw5PDExEbvT4S719PSMSillsVj83ygUCnJ4eFgODg7K48eP/xyJRDaVr7eWNwC6uroOd3R0VEsFBSOFzF1GZL7DmP0Rc/o3AP6dNNne1oHT6Qzb7fb6qampy4lEInGPob39NdHY2n74aq6i\u002BvpUP2sL3\u002BCc/ZZC7AyITUgVpBC/yMQcNDzSjs/n01wu18bKysrglStXLqTT6fSyoRC4H93nCz33zudrAqFn2iI2\u002B66aY3hnTjM8vpVf9A8ZqzjElta9yLlRMqabC0M3GBoaQtd1q8/ni5w/f/6nVCoV0wAczXu8Dfvf/\u002BTp7fXvvrxlzLVdfkriWo7\u002B7FGuh19kwnBycWyGrHmDV/xNNLZuoB4/hmHg8XgYGRlZzdIC4O96r7Mjsu6Ng00Da9tyH4vF4TxTopvcugPYsuA2C4TW13Jprkhf8iHEmhDV1VUEAgG8Xi9Wq3WVAgtAQ8Bz4IXG0aoW8ysxP2jiavmBLY8d4OC2AK\u002B3VJOZnsNnr0C4nQwmbMznLaX9KChDC0AD2Lwu9dTj3u\u002BdmXEHX5ufMfmHDbPwD1IpFJJ8UaNKs2Cz2xifWyKZNqhd60ApQNxmFECrDWj2t1pO19uiY\u002BKc5QvlbtstwsrC8mxKpgrzloFhmCwVChSUKg0r1F0PQJu8GtqfHP\u002B1YiDzthoN7in\u002BefGadWuNSygpUUohlQIUQirqkLQGPfg99pLZna8IQFN67NXZm3VL54o7MbNKczttls5wtdhW58br0NDzJgM3kkSTOVCKoM\u002BFx6GtJLB8jmXS8pP5zmS24vf\u002BGW1zSEs11ITrxJnpHGeuz6IME82uUfRUkSy6WIgv8KxFYLPc/gJWUl6RpbAonHuPLh2Kzcx/eW10PHFzOq0M9xoIrUdsfJilugbiShCPJwg7CjzfXIPdunLL98p69E38Ox5Mhi/1X\u002B1rCNjMTMps1DPSPRlfJDGf4lZiAVt6kaYHND7auYFKtx2EWEVGCEE0GuXUqVMndF2PWdfXMhCbYVfEPrujLt43Eqhvde1\u002B4slGv63IJq9Ge62bfU1\u002BXtpai8OmLW\u002BjhAuAsFiIRifo7e09oev6vV9Zd3d3n5RSmqZZCkOaxnIYq7G0WpqmKc\u002BePSuDwWAbK2CXSyn118mTJztL9WV0SgiV95Wzp\u002Bv638DCnU73Sf8B3E0j/55GTsEAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-05-28T00:38:26.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\App.xaml",
+              "RelativeDocumentMoniker": "FrontMoviles\\App.xaml",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\App.xaml",
+              "RelativeToolTip": "FrontMoviles\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-22T23:48:48.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "splash.svg",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Resources\\Splash\\splash.svg",
+              "RelativeDocumentMoniker": "FrontMoviles\\Resources\\Splash\\splash.svg",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Resources\\Splash\\splash.svg",
+              "RelativeToolTip": "FrontMoviles\\Resources\\Splash\\splash.svg",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwDEAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP8SURBVDhPrZRdbJNVGMd/p33b9Qtqt9HZbe2woKxsbGDYpk5DQAkTFcQPjJgY44XGEI3GmBBMNNmVNxoWojei8VITgyzGCwgRyRjJZM5JlvERt0C3dVu3rt3bD7r3bc/xYt0o4CX/5Mn5/uc85/zOgfsppZS4u6\u002Bnp\u002BdYc3PzB6VxlFIrcwGQUpLP58lms71Hjhw5PDExEbvT4S719PSMSillsVj83ygUCnJ4eFgODg7K48eP/xyJRDaVr7eWNwC6uroOd3R0VEsFBSOFzF1GZL7DmP0Rc/o3AP6dNNne1oHT6Qzb7fb6qampy4lEInGPob39NdHY2n74aq6i\u002BvpUP2sL3\u002BCc/ZZC7AyITUgVpBC/yMQcNDzSjs/n01wu18bKysrglStXLqTT6fSyoRC4H93nCz33zudrAqFn2iI2\u002B66aY3hnTjM8vpVf9A8ZqzjElta9yLlRMqabC0M3GBoaQtd1q8/ni5w/f/6nVCoV0wAczXu8Dfvf/\u002BTp7fXvvrxlzLVdfkriWo7\u002B7FGuh19kwnBycWyGrHmDV/xNNLZuoB4/hmHg8XgYGRlZzdIC4O96r7Mjsu6Ng00Da9tyH4vF4TxTopvcugPYsuA2C4TW13Jprkhf8iHEmhDV1VUEAgG8Xi9Wq3WVAgtAQ8Bz4IXG0aoW8ysxP2jiavmBLY8d4OC2AK\u002B3VJOZnsNnr0C4nQwmbMznLaX9KChDC0AD2Lwu9dTj3u\u002BdmXEHX5ufMfmHDbPwD1IpFJJ8UaNKs2Cz2xifWyKZNqhd60ApQNxmFECrDWj2t1pO19uiY\u002BKc5QvlbtstwsrC8mxKpgrzloFhmCwVChSUKg0r1F0PQJu8GtqfHP\u002B1YiDzthoN7in\u002BefGadWuNSygpUUohlQIUQirqkLQGPfg99pLZna8IQFN67NXZm3VL54o7MbNKczttls5wtdhW58br0NDzJgM3kkSTOVCKoM\u002BFx6GtJLB8jmXS8pP5zmS24vf\u002BGW1zSEs11ITrxJnpHGeuz6IME82uUfRUkSy6WIgv8KxFYLPc/gJWUl6RpbAonHuPLh2Kzcx/eW10PHFzOq0M9xoIrUdsfJilugbiShCPJwg7CjzfXIPdunLL98p69E38Ox5Mhi/1X\u002B1rCNjMTMps1DPSPRlfJDGf4lZiAVt6kaYHND7auYFKtx2EWEVGCEE0GuXUqVMndF2PWdfXMhCbYVfEPrujLt43Eqhvde1\u002B4slGv63IJq9Ge62bfU1\u002BXtpai8OmLW\u002BjhAuAsFiIRifo7e09oev6vV9Zd3d3n5RSmqZZCkOaxnIYq7G0WpqmKc\u002BePSuDwWAbK2CXSyn118mTJztL9WV0SgiV95Wzp\u002Bv638DCnU73Sf8B3E0j/55GTsEAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-05-28T00:38:37.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "FrontMoviles\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "FrontMoviles\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAF0AAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-23T00:17:37.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "FrontMoviles\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "D:\\Universidad\\l-2025\\Moviles\\Proyecto2\\FrontMoviles\\FrontMoviles\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "FrontMoviles\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-23T00:08:50.019Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FrontMoviles.PerfilPage"
+             Title="Mi Perfil"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Grid Grid.Row="0" BackgroundColor="#4A7C59" Padding="20,50,20,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Botón regresar -->
+            <Button Grid.Column="0" 
+                    Text="←"
+                    FontSize="24"
+                    BackgroundColor="Transparent"
+                    TextColor="White"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    Clicked="OnBackClicked" />
+
+            <!-- Título -->
+            <Label Grid.Column="1" 
+                   Text="Mi Perfil"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
+            <!-- Botón configuración -->
+            <Button Grid.Column="2" 
+                    Text="⚙️"
+                    FontSize="18"
+                    BackgroundColor="Transparent"
+                    TextColor="White"
+                    WidthRequest="40"
+                    HeightRequest="40"
+                    Clicked="OnConfigClicked" />
+        </Grid>
+
+        <!-- Loading indicator -->
+        <Grid Grid.Row="1" x:Name="LoadingGrid" IsVisible="True" BackgroundColor="White">
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
+                <ActivityIndicator IsRunning="True" Color="#4A7C59" />
+                <Label Text="Cargando perfil..." 
+                       FontSize="16"
+                       TextColor="Gray"
+                       HorizontalOptions="Center" />
+            </StackLayout>
+        </Grid>
+
+        <!-- Contenido -->
+        <ScrollView Grid.Row="1" x:Name="ContentScrollView" IsVisible="False">
+            <StackLayout Spacing="0">
+
+                <!-- Información del usuario -->
+                <StackLayout BackgroundColor="#4A7C59" Padding="20,10,20,30">
+                    <!-- Foto de perfil -->
+                    <Frame BackgroundColor="White"
+                           CornerRadius="60"
+                           WidthRequest="120"
+                           HeightRequest="120"
+                           HorizontalOptions="Center"
+                           HasShadow="True"
+                           Padding="0"
+                           Margin="0,0,0,20">
+                        <Label x:Name="FotoPerfilLabel"
+                               Text="👤"
+                               FontSize="60"
+                               TextColor="Gray"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center" />
+                    </Frame>
+
+                    <!-- Nombre y email -->
+                    <Label x:Name="NombreCompletoLabel"
+                           Text="Cargando..."
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="White"
+                           HorizontalOptions="Center"
+                           Margin="0,0,0,5" />
+
+                    <Label x:Name="EmailLabel"
+                           Text="correo@ejemplo.com"
+                           FontSize="16"
+                           TextColor="White"
+                           HorizontalOptions="Center"
+                           Margin="0,0,0,10" />
+
+                    <!-- Estado de verificación -->
+                    <Frame x:Name="VerificacionFrame"
+                           BackgroundColor="#28a745"
+                           CornerRadius="15"
+                           Padding="10,5"
+                           HorizontalOptions="Center"
+                           HasShadow="False">
+                        <Label x:Name="VerificacionLabel"
+                               Text="✓ Cuenta verificada"
+                               FontSize="12"
+                               TextColor="White"
+                               FontAttributes="Bold" />
+                    </Frame>
+                </StackLayout>
+
+                <!-- Información personal -->
+                <StackLayout BackgroundColor="White" Padding="20,30" Spacing="25">
+
+                    <!-- Información personal -->
+                    <StackLayout Spacing="15">
+                        <Label Text="Información personal" 
+                               FontSize="18" 
+                               FontAttributes="Bold"
+                               TextColor="Black" />
+
+                        <!-- Teléfono -->
+                        <Frame BackgroundColor="#F8F8F8" 
+                               CornerRadius="10" 
+                               HasShadow="False"
+                               Padding="15">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0" 
+                                       Text="📞"
+                                       FontSize="20"
+                                       VerticalOptions="Center"
+                                       Margin="0,0,15,0" />
+
+                                <StackLayout Grid.Column="1">
+                                    <Label Text="Teléfono"
+                                           FontSize="12"
+                                           TextColor="Gray" />
+                                    <Label x:Name="TelefonoLabel"
+                                           Text="+506 8888-8888"
+                                           FontSize="16"
+                                           TextColor="Black"
+                                           FontAttributes="Bold" />
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+
+                        <!-- Fecha de nacimiento -->
+                        <Frame BackgroundColor="#F8F8F8" 
+                               CornerRadius="10" 
+                               HasShadow="False"
+                               Padding="15">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0" 
+                                       Text="🎂"
+                                       FontSize="20"
+                                       VerticalOptions="Center"
+                                       Margin="0,0,15,0" />
+
+                                <StackLayout Grid.Column="1">
+                                    <Label Text="Fecha de nacimiento"
+                                           FontSize="12"
+                                           TextColor="Gray" />
+                                    <Label x:Name="FechaNacimientoLabel"
+                                           Text="15 de enero, 1990"
+                                           FontSize="16"
+                                           TextColor="Black"
+                                           FontAttributes="Bold" />
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+
+                        <!-- Ubicación -->
+                        <Frame BackgroundColor="#F8F8F8" 
+                               CornerRadius="10" 
+                               HasShadow="False"
+                               Padding="15">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0" 
+                                       Text="📍"
+                                       FontSize="20"
+                                       VerticalOptions="Center"
+                                       Margin="0,0,15,0" />
+
+                                <StackLayout Grid.Column="1">
+                                    <Label Text="Ubicación"
+                                           FontSize="12"
+                                           TextColor="Gray" />
+                                    <Label x:Name="UbicacionLabel"
+                                           Text="San José, Costa Rica"
+                                           FontSize="16"
+                                           TextColor="Black"
+                                           FontAttributes="Bold" />
+                                    <Label x:Name="DireccionLabel"
+                                           Text="200m norte de la iglesia"
+                                           FontSize="14"
+                                           TextColor="Gray"
+                                           Margin="0,5,0,0" />
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+
+                    <!-- Estadísticas -->
+                    <StackLayout Spacing="15">
+                        <Label Text="Mi actividad" 
+                               FontSize="18" 
+                               FontAttributes="Bold"
+                               TextColor="Black" />
+
+                        <Grid ColumnDefinitions="*,*,*" ColumnSpacing="15">
+                            <!-- Servicios publicados -->
+                            <Frame Grid.Column="0" 
+                                   BackgroundColor="#E8F5E8" 
+                                   CornerRadius="10" 
+                                   HasShadow="False"
+                                   Padding="15">
+                                <StackLayout HorizontalOptions="Center">
+                                    <Label Text="📝"
+                                           FontSize="24"
+                                           HorizontalOptions="Center" />
+                                    <Label Text="5"
+                                           FontSize="20"
+                                           FontAttributes="Bold"
+                                           TextColor="#4A7C59"
+                                           HorizontalOptions="Center" />
+                                    <Label Text="Servicios"
+                                           FontSize="12"
+                                           TextColor="Gray"
+                                           HorizontalOptions="Center" />
+                                </StackLayout>
+                            </Frame>
+
+                            <!-- Calificación -->
+                            <Frame Grid.Column="1" 
+                                   BackgroundColor="#FFF8E1" 
+                                   CornerRadius="10" 
+                                   HasShadow="False"
+                                   Padding="15">
+                                <StackLayout HorizontalOptions="Center">
+                                    <Label Text="⭐"
+                                           FontSize="24"
+                                           HorizontalOptions="Center" />
+                                    <Label Text="4.8"
+                                           FontSize="20"
+                                           FontAttributes="Bold"
+                                           TextColor="#FF9800"
+                                           HorizontalOptions="Center" />
+                                    <Label Text="Calificación"
+                                           FontSize="12"
+                                           TextColor="Gray"
+                                           HorizontalOptions="Center" />
+                                </StackLayout>
+                            </Frame>
+
+                            <!-- Trabajos completados -->
+                            <Frame Grid.Column="2" 
+                                   BackgroundColor="#E3F2FD" 
+                                   CornerRadius="10" 
+                                   HasShadow="False"
+                                   Padding="15">
+                                <StackLayout HorizontalOptions="Center">
+                                    <Label Text="✅"
+                                           FontSize="24"
+                                           HorizontalOptions="Center" />
+                                    <Label Text="23"
+                                           FontSize="20"
+                                           FontAttributes="Bold"
+                                           TextColor="#2196F3"
+                                           HorizontalOptions="Center" />
+                                    <Label Text="Completados"
+                                           FontSize="12"
+                                           TextColor="Gray"
+                                           HorizontalOptions="Center" />
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </StackLayout>
+
+                    <!-- Opciones -->
+                    <StackLayout Spacing="15">
+                        <Label Text="Configuración" 
+                               FontSize="18" 
+                               FontAttributes="Bold"
+                               TextColor="Black" />
+
+                        <!-- Editar perfil -->
+                        <Frame BackgroundColor="White" 
+                               CornerRadius="10" 
+                               HasShadow="True"
+                               Padding="0">
+                            <Grid Padding="15">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0" 
+                                       Text="✏️"
+                                       FontSize="20"
+                                       VerticalOptions="Center"
+                                       Margin="0,0,15,0" />
+
+                                <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                    <Label Text="Editar perfil"
+                                           FontSize="16"
+                                           TextColor="Black"
+                                           FontAttributes="Bold" />
+                                    <Label Text="Actualiza tu información personal"
+                                           FontSize="12"
+                                           TextColor="Gray" />
+                                </StackLayout>
+
+                                <Label Grid.Column="2" 
+                                       Text="›"
+                                       FontSize="20"
+                                       TextColor="Gray"
+                                       VerticalOptions="Center" />
+
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnEditarPerfilClicked" />
+                                </Grid.GestureRecognizers>
+                            </Grid>
+                        </Frame>
+
+                        <!-- Cambiar contraseña -->
+                        <Frame BackgroundColor="White" 
+                               CornerRadius="10" 
+                               HasShadow="True"
+                               Padding="0">
+                            <Grid Padding="15">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0" 
+                                       Text="🔒"
+                                       FontSize="20"
+                                       VerticalOptions="Center"
+                                       Margin="0,0,15,0" />
+
+                                <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                    <Label Text="Cambiar contraseña"
+                                           FontSize="16"
+                                           TextColor="Black"
+                                           FontAttributes="Bold" />
+                                    <Label Text="Actualiza tu contraseña de acceso"
+                                           FontSize="12"
+                                           TextColor="Gray" />
+                                </StackLayout>
+
+                                <Label Grid.Column="2" 
+                                       Text="›"
+                                       FontSize="20"
+                                       TextColor="Gray"
+                                       VerticalOptions="Center" />
+
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnCambiarContrasenaClicked" />
+                                </Grid.GestureRecognizers>
+                            </Grid>
+                        </Frame>
+
+                        <!-- Cerrar sesión -->
+                        <Frame BackgroundColor="White" 
+                               CornerRadius="10" 
+                               HasShadow="True"
+                               Padding="0">
+                            <Grid Padding="15">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Column="0" 
+                                       Text="🚪"
+                                       FontSize="20"
+                                       VerticalOptions="Center"
+                                       Margin="0,0,15,0" />
+
+                                <StackLayout Grid.Column="1" VerticalOptions="Center">
+                                    <Label Text="Cerrar sesión"
+                                           FontSize="16"
+                                           TextColor="#dc3545"
+                                           FontAttributes="Bold" />
+                                    <Label Text="Salir de tu cuenta"
+                                           FontSize="12"
+                                           TextColor="Gray" />
+                                </StackLayout>
+
+                                <Label Grid.Column="2" 
+                                       Text="›"
+                                       FontSize="20"
+                                       TextColor="Gray"
+                                       VerticalOptions="Center" />
+
+                                <Grid.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnCerrarSesionClicked" />
+                                </Grid.GestureRecognizers>
+                            </Grid>
+                        </Frame>
+                    </StackLayout>
+
+                    <!-- Espacio adicional -->
+                    <BoxView HeightRequest="50" BackgroundColor="Transparent" />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Error view -->
+        <Grid Grid.Row="1" x:Name="ErrorGrid" IsVisible="False" BackgroundColor="White">
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20" Padding="40">
+                <Label Text="😞"
+                       FontSize="60"
+                       HorizontalOptions="Center" />
+                <Label x:Name="ErrorMessageLabel"
+                       Text="No se pudo cargar el perfil"
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       TextColor="Gray"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center" />
+                <Button Text="Reintentar"
+                        BackgroundColor="#4A7C59"
+                        TextColor="White"
+                        CornerRadius="20"
+                        Padding="30,10"
+                        Clicked="OnReintentarClicked" />
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FrontMoviles.LoginPage"
+             Title="LoginPage"
+             BackgroundColor="{StaticResource Background}"
+             NavigationPage.HasNavigationBar="False">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30">
+
+            <!-- Logo y título -->
+            <VerticalStackLayout Spacing="10" Margin="0,50,0,30">
+                <Image Source="serviflex_logo.png" 
+                       HeightRequest="80" 
+                       WidthRequest="80"
+                       HorizontalOptions="Center" />
+
+                <Label Text="SERVIFLEX" 
+                       Style="{StaticResource TitleLabel}"
+                       FontSize="28" />
+
+                <Label Text="Servicios flexibles al instante" 
+                       Style="{StaticResource SubtitleLabel}"
+                       FontSize="16" />
+            </VerticalStackLayout>
+
+            <!-- Título de la sección -->
+            <Label Text="Iniciar sesión" 
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="{StaticResource TextPrimary}" />
+
+            <!-- Formulario -->
+            <VerticalStackLayout Spacing="15">
+                <!-- Email -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Correo electrónico" 
+                           TextColor="{StaticResource TextSecondary}"
+                           FontSize="14" />
+                    <Entry x:Name="EmailEntry"
+                           Placeholder="usuario@ejemplo.com"
+                           Keyboard="Email"
+                           Style="{StaticResource EntryStyle}" />
+                </VerticalStackLayout>
+
+                <!-- Contraseña -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Contraseña" 
+                           TextColor="{StaticResource TextSecondary}"
+                           FontSize="14" />
+                    <Grid>
+                        <Entry x:Name="PasswordEntry"
+                               Placeholder="••••••••"
+                               IsPassword="True"
+                               Style="{StaticResource EntryStyle}" />
+                        <Label Text="Mostrar" 
+                                TextColor="{StaticResource servi}"
+                               FontSize="14"
+                               HorizontalOptions="End"
+                               VerticalOptions="Center"
+                               Margin="0,0,15,0">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnShowPasswordTapped" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </Grid>
+                </VerticalStackLayout>
+
+                <!-- Olvidaste contraseña -->
+                <Label Text="¿Olvidaste tu contraseña?" 
+                       TextColor="{StaticResource servi}"
+                       FontSize="14"
+                       HorizontalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnForgotPasswordTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </VerticalStackLayout>
+
+            <Button Text="TEST LOGS" 
+        BackgroundColor="Red"
+        TextColor="White"
+        Clicked="TestLogsClicked" />
+
+
+            <!-- Botón iniciar sesión -->
+            <Button Text="Iniciar sesión" 
+                    Style="{StaticResource PrimaryButton}"
+                    BackgroundColor="#518777"
+                    Clicked="OnLoginClicked"
+                    Margin="0,20,0,0" />
+
+
+
+            <!-- Registro -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="5" Margin="0,20,0,0">
+                <Label Text="¿No tienes cuenta?" 
+                       TextColor="{StaticResource TextSecondary}"
+                       FontSize="14" />
+                <Label Text="Regístrate" 
+                       TextColor="{StaticResource servi}"
+                       FontSize="14"
+                       FontAttributes="Bold">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnRegisterTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

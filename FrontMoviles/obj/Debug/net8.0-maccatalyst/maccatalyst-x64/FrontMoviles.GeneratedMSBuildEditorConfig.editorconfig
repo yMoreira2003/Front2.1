@@ -1,0 +1,85 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FrontMoviles
+build_property.ProjectDir = C:\Users\yehud\Downloads\Proyecto2\Proyecto2\FrontMoviles\FrontMoviles\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/yehud/Downloads/Proyecto2/Proyecto2/FrontMoviles/FrontMoviles/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontMoviles.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/yehud/Downloads/Proyecto2/Proyecto2/FrontMoviles/FrontMoviles/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontMoviles.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/yehud/Downloads/Proyecto2/Proyecto2/FrontMoviles/FrontMoviles/InicioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontMoviles.InicioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = InicioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = InicioPage.xaml
+
+[C:/Users/yehud/Downloads/Proyecto2/Proyecto2/FrontMoviles/FrontMoviles/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontMoviles.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[C:/Users/yehud/Downloads/Proyecto2/Proyecto2/FrontMoviles/FrontMoviles/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontMoviles.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/yehud/Downloads/Proyecto2/Proyecto2/FrontMoviles/FrontMoviles/PerfilPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontMoviles.PerfilPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PerfilPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PerfilPage.xaml
+
+[C:/Users/yehud/Downloads/Proyecto2/Proyecto2/FrontMoviles/FrontMoviles/PublicarServicioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontMoviles.PublicarServicioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PublicarServicioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PublicarServicioPage.xaml
+
+[C:/Users/yehud/Downloads/Proyecto2/Proyecto2/FrontMoviles/FrontMoviles/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontMoviles.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
+
+[C:/Users/yehud/Downloads/Proyecto2/Proyecto2/FrontMoviles/FrontMoviles/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontMoviles.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/yehud/Downloads/Proyecto2/Proyecto2/FrontMoviles/FrontMoviles/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontMoviles.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/yehud/Downloads/Proyecto2/Proyecto2/FrontMoviles/FrontMoviles/VerificationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FrontMoviles.VerificationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = VerificationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = VerificationPage.xaml

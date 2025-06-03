@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FrontMoviles.VerificationPage"
+             Title="Verificación"
+             BackgroundColor="{StaticResource Background}"
+             NavigationPage.HasNavigationBar="False">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="30" Padding="30">
+
+            <!-- Header -->
+            <VerticalStackLayout Spacing="10" Margin="0,50,0,30">
+                <Label Text="SERVIFLEX" 
+                       Style="{StaticResource TitleLabel}"
+                       FontSize="28" />
+
+                <Label Text="Servicios flexibles al instante" 
+                       Style="{StaticResource SubtitleLabel}"
+                       FontSize="16" />
+            </VerticalStackLayout>
+
+            <!-- Título de verificación -->
+            <VerticalStackLayout Spacing="15" HorizontalOptions="Center">
+                <Label Text="Verificar cuenta" 
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="{StaticResource TextPrimary}" />
+
+                <Label Text="Enviamos un código de verificación a:"
+                       FontSize="16"
+                       HorizontalOptions="Center"
+                       TextColor="{StaticResource TextSecondary}" />
+
+                <Label x:Name="UserEmailLabel"
+                       Text="usuario@ejemplo.com"
+                       FontSize="16"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="{StaticResource servi}" />
+            </VerticalStackLayout>
+
+            <!-- Código de verificación -->
+            <VerticalStackLayout Spacing="20">
+                <Label Text="Ingresa el código de 6 dígitos" 
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="{StaticResource TextPrimary}" />
+
+                <!-- Input de código simplificado -->
+                <Entry x:Name="VerificationCodeEntry"
+                       Placeholder="123456"
+                       MaxLength="6" 
+                       Keyboard="Numeric"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       BackgroundColor="#F8F8F8"
+                       HeightRequest="60"
+                       TextChanged="OnCodeTextChanged" />
+
+                <!-- Mensaje de error -->
+                <Label x:Name="ErrorLabel"
+                       Text="Código incorrecto. Intenta de nuevo."
+                       TextColor="Red"
+                       FontSize="14"
+                       HorizontalOptions="Center"
+                       IsVisible="False" />
+            </VerticalStackLayout>
+
+            <!-- Botón verificar -->
+            <Button x:Name="VerifyButton"
+                    Text="Verificar" 
+                    Style="{StaticResource PrimaryButton}"
+                    BackgroundColor="#518777"
+                    Clicked="OnVerifyClicked"
+                    IsEnabled="False"
+                    Margin="0,20,0,0" />
+
+            <!-- Reenviar código -->
+            <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Label Text="¿No recibiste el código?" 
+                       TextColor="{StaticResource TextSecondary}"
+                       FontSize="14"
+                       HorizontalOptions="Center" />
+
+                <Label x:Name="ResendLabel"
+                       Text="Reenviar código" 
+                       TextColor="{StaticResource servi}"
+                       FontSize="14"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnResendCodeTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+
+                <!-- Timer de reenvío -->
+                <Label x:Name="TimerLabel"
+                       Text="Puedes reenviar en 60 segundos"
+                       TextColor="{StaticResource TextSecondary}"
+                       FontSize="12"
+                       HorizontalOptions="Center"
+                       IsVisible="False" />
+            </VerticalStackLayout>
+
+            <!-- Cambiar email -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="5" Margin="0,20,0,30">
+                <Label Text="¿Email incorrecto?" 
+                       TextColor="{StaticResource TextSecondary}"
+                       FontSize="14" />
+                <Label Text="Cambiar email" 
+                       TextColor="{StaticResource servi}"
+                       FontSize="14"
+                       FontAttributes="Bold">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnChangeEmailTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

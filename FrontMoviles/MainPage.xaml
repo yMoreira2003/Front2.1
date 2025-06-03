@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FrontMoviles.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="logo.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Text="Bienvenido a ServiFlex"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Button
+                 x:Name="btnIrLogin"
+                 Text="Login"
+                 BackgroundColor="#518777"
+                 HorizontalOptions="Fill"
+                 Clicked="btnIrLogin_Clicked_1"/>
+
+            <Button
+                x:Name="btnIrRegistrar"
+                 Text="Registrar"
+                 BackgroundColor="#518777"
+                 HorizontalOptions="Fill"
+                 Clicked="btnIrRegistrar_Clicked_1"/>
+
+            <Button
+                x:Name="btnIrVerificar"
+                 Text="Verificar Cuenta"
+                 BackgroundColor="#4A90A4"
+                 HorizontalOptions="Fill"
+                 Clicked="btnIrVerificar_Clicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
